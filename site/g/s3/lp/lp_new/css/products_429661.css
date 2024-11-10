@@ -1,0 +1,100 @@
+.products-with-pic--theme9 .products-wrapper {
+  background: #fff;
+  padding: 0 5px; }
+
+.products-with-pic--theme9 .products-inner {
+  padding: 30px 0 30px;
+  max-width: 1168px;
+  text-align: center;
+  margin: 0 auto; }
+
+.products-with-pic--theme9 .block-title {
+  text-align: center; }
+
+.products-with-pic--theme9 .text-before {
+  padding: 0 15px; }
+
+.products-with-pic--theme9 .text-after {
+  padding: 30px 15px 0px; }
+
+.products-with-pic--theme9 .product {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px 10px; }
+
+@media all and (min-width: 500px) {
+  .products-with-pic--theme9 .product {
+    width: 50%; } }
+
+@media all and (min-width: 800px) {
+  .products-with-pic--theme9 .product {
+    width: 33.3%;
+    padding: 0 15px 30px; } }
+
+.products-with-pic--theme9 .product .pic {
+  font-size: 0;
+  text-align: center; }
+
+.products-with-pic--theme9 .product .bottom-part {
+  padding: 20px 30px 35px;
+  text-align: center;
+  border: 1px solid #d1d1d1;
+  border-top: none; }
+
+.products-with-pic--theme9 .product .bottom-part .title {
+  padding-bottom: 12px;
+  margin-bottom: 0; }
+
+.products-with-pic--theme9 .product .bottom-part .text {
+  padding: 12px;
+  margin-bottom: 0; }
+
+.products-with-pic--theme9 .product .bottom-part .price {
+  margin-bottom: 0;
+  padding-bottom: 5px; }
+
+.products-with-pic--theme9 .product .bottom-part .button {
+  padding-top: 20px; }
+
+.products-with-pic--theme9 .product .bottom-part .button a {
+  display: inline-block; }
+
+.products-with-pic--theme9 .product-inner {
+  background: rgba(0, 0, 0, 0.05); }
+
+.products-with-pic--theme9.inverse .products-wrapper {
+  background: #1d1d1d;
+  }
+
+.products-with-pic--theme9.inverse .block-title {
+  color: #fff; }
+
+.products-with-pic--theme9.inverse .text-before {
+  color: #fff;
+  }
+
+.products-with-pic--theme9.inverse .text-after {
+  color: #fff;
+  }
+
+.products-with-pic--theme9.inverse .product .bottom-part {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none; }
+
+.products-with-pic--theme9.inverse .product .bottom-part .title {
+  color: #000; }
+
+.products-with-pic--theme9.inverse .product .bottom-part .text {
+  color: #333; }
+
+.products-with-pic--theme9.inverse .product .bottom-part .price {
+  color: #000; }
+
+.products-with-pic--theme9.inverse .product .bottom-part .button a {
+  color: #fff;
+  background: #ff655d; }
+
+.products-with-pic--theme9.inverse .product-inner {
+  background: #fff; }

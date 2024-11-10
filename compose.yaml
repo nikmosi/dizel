@@ -1,0 +1,22 @@
+services:
+  web:
+    build: ./site
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf.d:/etc/nginx/conf.d/
+    networks:
+      - backbone
+  bot:
+    build: ./bot
+    container_name: bot
+    hostname: bot
+    env_file: ./bot/.env
+    ports:
+      - "8000:8000"
+    networks:
+      - backbone
+networks:
+  backbone:
+    driver: bridge

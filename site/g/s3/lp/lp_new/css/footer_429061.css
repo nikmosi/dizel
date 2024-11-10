@@ -1,0 +1,10 @@
+.footer_1 {
+  background: #1d1d1d;
+  text-align: center;
+  padding: 20px 0;
+  color: #f3f3f3; }
+  .footer_1__item:not(:last-child) {
+    margin-bottom: 15px; }
+  .footer_1.inverse {
+    background: #f2f2f2;
+    color: #666; }

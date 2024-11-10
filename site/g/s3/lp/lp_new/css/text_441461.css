@@ -1,0 +1,117 @@
+.text-with-background-image-wrapper {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20px; }
+
+.text-with-background-image-wrapper .overlay-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5; }
+
+@media all and (min-width: 1025px) {
+  .text-with-background-image-wrapper.image-fixed {
+    background-attachment: fixed; } }
+
+.text-with-background-image-wrapper.inverse .overlay-block {
+  background: #fff; }
+
+.text-with-background-image-wrapper.inverse .text-with-background-image-inner, .text-with-background-image-wrapper.inverse .title-wrapper, .text-with-background-image-wrapper.inverse .text-title, .text-with-background-image-wrapper.inverse .text-subtitle {
+  color: #222; }
+
+.text-with-background-image-wrapper.inverse .text-with-background-image-inner .text{
+  color: #1d1d1d;
+}
+
+.text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-title, .text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-subtitle {
+  line-height: 1; }
+
+.text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-title span, .text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-subtitle span {
+  display: inline-block;
+  line-height: 1.2;
+  padding: 10px 25px;
+  background: rgba(0, 0, 0, 0.6); }
+
+.text-with-background-image-wrapper.second-type .text {
+  display: inline-block; }
+
+.text-with-background-image-wrapper.second-type .text .text-inner {
+  display: block;
+  color: #fff;
+  padding: 10px 25px;
+  background: rgba(0, 0, 0, 0.6); }
+
+.text-with-background-image-wrapper.second-type.center-text .text-with-background-image-inner {
+  text-align: center; }
+
+.text-with-background-image-wrapper.second-type.right-text .text-with-background-image-inner {
+  text-align: right; }
+
+.text-with-background-image-wrapper.second-type.inverse .text-with-background-image-inner .text-title, .text-with-background-image-wrapper.second-type.inverse .text-with-background-image-inner .text-subtitle, .text-with-background-image-wrapper.second-type.inverse .text {
+  color: #1d1d1d; }
+
+.text-with-background-image-wrapper.second-type.inverse .text-with-background-image-inner .text-title span, .text-with-background-image-wrapper.second-type.inverse .text-with-background-image-inner .text-subtitle span, .text-with-background-image-wrapper.second-type.inverse .text-inner {
+  background-color: rgba(255, 255, 255, 0.6); }
+
+.text-with-background-image-inner {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 0;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #fff; }
+
+.text-with-background-image-inner .title-wrapper {
+  color: #fff;
+  padding-bottom: 25px; }
+
+.text-with-background-image-inner .text-title {
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 15px; }
+
+.text-with-background-image-inner .text-subtitle {
+  font-size: 22px; }
+
+@media all and (max-width: 960px) {
+  .text-with-background-image-inner {
+    padding: 45px 0; }
+
+  .text-with-background-image-inner .title-wrapper {
+    padding-bottom: 20px; }
+
+  .text-with-background-image-inner .text-title {
+    font-size: 33px;
+    padding-bottom: 12px; }
+
+  .text-with-background-image-inner .text-subtitle {
+    font-size: 20px; } }
+
+@media all and (max-width: 640px) {
+  .text-with-background-image-inner {
+    padding: 25px 0; }
+
+  .text-with-background-image-inner .text-subtitle {
+    font-size: 18px; }
+
+  .text-with-background-image-inner .text-title {
+    font-size: 27px;
+    padding-bottom: 8px; }
+
+  .text-with-background-image-inner .title-wrapper {
+    padding-bottom: 15px; } }
+
+.text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-title, .text-with-background-image-wrapper.second-type .text-with-background-image-inner .text-subtitle {
+  line-height: 1; }
+
+.text-with-background-image-inner .text {
+  color: #fff; }
+
+.title-wrapper .text-subtitle {
+  color: #fff; }

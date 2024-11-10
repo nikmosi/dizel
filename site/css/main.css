@@ -1,0 +1,79 @@
+.sert_bl_item {
+  width: 353px;
+}
+
+.background {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* General Styles for Form Status Messages */
+#form_status {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  display: none;
+}
+
+/* Success Status */
+.success {
+  background-color: #d4edda; /* Light green background */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Light green border */
+}
+
+/* Error Status */
+.error {
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Light red border */
+}
+
+/* Optional: Adding some animations for better UX */
+.success,
+.error {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.success.hidden,
+.error.hidden {
+  opacity: 0; /* Hide status message when hidden */
+}
+
+.captcha_style {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+/* CSS styles for sending message */
+.sending {
+  background-color: #fff3cd; /* Light yellow background */
+  color: #856404; /* Dark yellow text */
+  border: 1px solid #ffeeba; /* Light yellow border */
+  position: relative; /* To position the spinner */
+}
+
+/* Spinner styles */
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray */
+  border-top: 4px solid #8b0000; /* Blue */
+  border-radius: 50%;
+  width: 12px; /* Spinner size */
+  height: 12px; /* Spinner size */
+  animation: spin 1s linear infinite; /* Spin animation */
+  transform: translateY(-50%); /* Adjust for the height of the spinner */
+  margin-right: 10px;
+}
+
+/* Spin animation keyframes */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

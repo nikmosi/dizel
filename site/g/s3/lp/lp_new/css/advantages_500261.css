@@ -1,0 +1,97 @@
+.adv_bl3_wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+  position: relative;
+  padding: 89px 0 80px;
+  background: #8B0000; }
+
+@media screen and (max-width: 1023px) {
+  .adv_bl3_wrapper {
+    padding: 70px 40px 60px; } }
+
+@media screen and (max-width: 767px) {
+  .adv_bl3_wrapper {
+    padding: 46px 20px 50px; } }
+
+.adv_bl3_wrapper.inverse {
+  background: #fff; }
+
+.adv_bl3_wrapper.inverse .adv_bl3_bg:before {
+  background: rgba(237, 242, 248, 0.85); }
+
+.adv_bl3_wrapper.inverse .bl3_num {
+  color: #1d1d1d; }
+
+.adv_bl3_wrapper.inverse .bl3_title {
+  background: #8B0000;
+  color: #fff;
+  }
+
+.adv_bl3_wrapper .adv_bl3_bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-image: url(../../img/LP12/advantages_background.jpg); }
+
+.adv_bl3_wrapper .adv_bl3_bg:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+.adv_bl3_wrapper .adv_bl3_wrap {
+  position: relative;
+  z-index: 2;
+  font-size: 0;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+@media screen and (max-width: 639px) {
+  .adv_bl3_wrapper .adv_bl3_wrap.slider .adv_bl3_item {
+    display: block;
+    width: auto;
+    margin: 0; } }
+
+.adv_bl3_wrapper .adv_bl3_item {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin: 0 2% 20px 0;
+  text-align: center; }
+
+.adv_bl3_wrapper .adv_bl3_item:nth-child(3n) {
+  margin-right: 0; }
+
+.adv_bl3_wrapper .bl3_num {
+  font-size: 60px;
+  padding: 0 0 6px;
+  margin-bottom: 0; }
+
+@media screen and (max-width: 1023px) {
+  .adv_bl3_wrapper .bl3_num {
+    font-size: 48px;
+    padding: 0 0 7px; } }
+
+.adv_bl3_wrapper .bl3_title {
+  background: #8B0000;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4px 30px 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px; }
+
+@media screen and (max-width: 1023px) {
+  .adv_bl3_wrapper .bl3_title {
+    font-size: 15px;
+    padding: 2px 20px 3px; } }

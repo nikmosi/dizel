@@ -1,0 +1,160 @@
+.quest_wrapper {
+  -webkit-box-flex: none;
+  -webkit-flex: none;
+  -moz-box-flex: none;
+  -moz-flex: none;
+  -ms-flex: none;
+  flex: none;
+  background: #f2f2f2;
+  padding: 30px 24px 30px; }
+
+@media screen and (max-width: 639px) {
+  .quest_wrapper {
+    padding: 24px 16px 24px; } }
+
+.quest_wrapper.inverse {
+  background: #1d1d1d;
+  }
+
+.quest_wrapper.inverse .left_bl .left_in .question {
+  background: #fb5769;
+  color: #fff; }
+
+.quest_wrapper.inverse .left_bl .left_in .text_wrap .title {
+  color: #fff;
+  }
+
+.quest_wrapper.inverse .left_bl .left_in .text_wrap .text {
+  }
+
+.quest_wrapper.inverse .quest_but .my_but {
+  }
+
+.quest_wrapper.inverse .quest_but .my_but:hover {
+  }
+
+.quest_wrapper.inverse .quest_but .my_but:active {
+  background-image: -webkit-gradient(linear, , , color-stop(0%, #e24b55), color-stop(11.11111%, #fd5a6d));
+  background-image: -o-linear-gradient(#e24b55, #fd5a6d);
+  background-image: -moz-linear-gradient(#e24b55, #fd5a6d);
+  background-image: -webkit-linear-gradient(#e24b55, #fd5a6d);
+  background-image: -ms-linear-gradient(#e24b55, #fd5a6d);
+  background-image: linear-gradient(#e24b55, #fd5a6d);
+  -pie-background: linear-gradient(#e24b55, #fd5a6d);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.0001); }
+
+.quest_wrapper .quest_block {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.quest_wrapper .quest_in {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media screen and (max-width: 639px) {
+  .quest_wrapper .quest_in {
+    display: block;
+    text-align: center; } }
+
+.quest_wrapper .left_bl {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  -moz-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.quest_wrapper .left_bl .left_in {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px 0 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+@media screen and (max-width: 639px) {
+  .quest_wrapper .left_bl .left_in {
+    display: block;
+    padding: 0 0 16px; } }
+
+.quest_wrapper .left_bl .left_in .question {
+  width: 60px;
+  height: 60px;
+  font-size: 48px;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #8B0000;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 60px;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 60px;
+  -ms-flex: 0 0 60px;
+  flex: 0 0 60px;
+  margin: 0 20px 0 0; }
+
+@media screen and (max-width: 639px) {
+  .quest_wrapper .left_bl .left_in .question {
+    margin: 0 auto 12px; } }
+
+.quest_wrapper .left_bl .left_in .text_wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  -moz-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.quest_wrapper .left_bl .left_in .text_wrap .title {
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 979px) {
+  .quest_wrapper .left_bl .left_in .text_wrap .title {
+    font-size: 26px; } }
+
+@media screen and (max-width: 767px) {
+  .quest_wrapper .left_bl .left_in .text_wrap .title {
+    font-size: 22px;
+    padding: 0 0 5px; } }
+
+.quest_wrapper .quest_but {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  max-width: 280px; }
+
+@media screen and (max-width: 639px) {
+  .quest_wrapper .quest_but {
+    display: block;
+    max-width: 100%; } }

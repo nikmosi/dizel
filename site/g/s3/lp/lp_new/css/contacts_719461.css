@@ -1,0 +1,177 @@
+.contacts--theme5 .contacts-wrapper {
+  padding: 0 10px;
+  position: relative; }
+
+@media all and (max-width: 960px) {
+  .contacts--theme5 .contacts-wrapper {
+    padding: 0 15px; } }
+
+.contacts--theme5 .contacts-wrapper .map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: 2; }
+
+.contacts--theme5 .contacts-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 118px 0 128px;
+  position: relative; }
+
+@media all and (max-width: 960px) {
+  .contacts--theme5 .contacts-inner {
+    padding: 40px 0 44px; } }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-inner {
+    padding: 25px 0 24px; } }
+
+.contacts--theme5 .contacts-block {
+  width: 370px;
+  max-width: 100%;
+  position: relative;
+  z-index: 3; }
+
+@media all and (max-width: 480px) {
+  .contacts--theme5 .contacts-block {
+    margin: 0 auto; } }
+
+.contacts--theme5 .contacts-block .block-title {
+  color: #fff;
+  margin-bottom: 0;
+  padding: 21px 32px;
+  background: #8B0000;
+  border-radius: 6px 6px 0 0; }
+
+@media all and (max-width: 640px) {
+  .contacts--theme5 .contacts-block .block-title {
+    font-size: 24px;
+    padding: 22px 32px; } }
+
+@media all and (max-width: 480px) {
+  .contacts--theme5 .contacts-block .block-title {
+    font-size: 22px;
+    padding: 23px 32px; } }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-block .block-title {
+    font-size: 20px;
+    padding: 22px 32px; } }
+
+.contacts--theme5 .contacts-block .contacts {
+  background: #f2f2f2;
+  padding: 30px 30px 53px 30px;
+  border-radius: 0 0 6px 6px;
+  position: relative; }
+
+.contacts--theme5 .contacts-block .contacts:before {
+  position: absolute;
+  display: block;
+  content: "";
+  right: -17px;
+  top: 50%;
+  margin-top: -19px;
+  opacity: 0.95;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17.5px 0 17.5px 17px;
+  border-left-color: #f2f2f2; }
+
+@media all and (max-width: 480px) {
+  .contacts--theme5 .contacts-block .contacts:before {
+    display: none; } }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-block .contacts {
+    padding: 30px 24px 40px 24px; } }
+
+.contacts--theme5 .contacts-block .contacts .address {
+  padding-left: 47px;
+  margin-bottom: 0;
+  min-height: 36px;
+  margin-bottom: 47px;
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2226px%22%20height%3D%2233px%22%20%20viewBox%3D%220%200%2026%2033%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M561%2C8647a12.826%2C12.826%2C0%2C0%2C0-13%2C12.61c0%2C6.63%2C12.029%2C19.64%2C12.541%2C20.19a0.628%2C0.628%2C0%2C0%2C0%2C.919%2C0c0.513-.55%2C12.542-13.56%2C12.542-20.19A12.826%2C12.826%2C0%2C0%2C0%2C561%2C8647m0%2C31.49c-2.226-2.47-11.762-13.4-11.762-18.88a11.767%2C11.767%2C0%2C0%2C1%2C23.524%2C0c0%2C5.48-9.536%2C16.41-11.762%2C18.88m0-26.89a7.543%2C7.543%2C0%2C1%2C0%2C7.773%2C7.54A7.673%2C7.673%2C0%2C0%2C0%2C561%2C8651.6m0%2C13.88a6.343%2C6.343%2C0%2C1%2C1%2C6.535-6.34%2C6.444%2C6.444%2C0%2C0%2C1-6.535%2C6.34%22%20transform%3D%22translate%28-548%20-8647%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-block .contacts .address {
+    padding-left: 40px;
+    margin-bottom: 25px; } }
+
+.contacts--theme5 .contacts-block .contacts .phones {
+  padding: 4px 0 4px 47px;
+  margin-bottom: 55px;
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2227px%22%20height%3D%2227px%22%20%20viewBox%3D%220%200%2027%2027%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M569.372%2C8745.35a0.812%2C0.812%2C0%2C0%2C1-.812-0.82%2C3.967%2C3.967%2C0%2C0%2C0-3.94-3.98%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64%2C5.6%2C5.6%2C0%2C0%2C1%2C5.565%2C5.62%2C0.812%2C0.812%2C0%2C0%2C1-.813.82m4.452%2C0.07a0.818%2C0.818%2C0%2C0%2C1-.812-0.82%2C8.517%2C8.517%2C0%2C0%2C0-8.458-8.55%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64%2C10.147%2C10.147%2C0%2C0%2C1%2C10.082%2C10.19%2C0.817%2C0.817%2C0%2C0%2C1-.812.82m4.363-.11a0.818%2C0.818%2C0%2C0%2C1-.812-0.82%2C12.793%2C12.793%2C0%2C0%2C0-12.711-12.85%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64A14.43%2C14.43%2C0%2C0%2C1%2C579%2C8744.49a0.818%2C0.818%2C0%2C0%2C1-.813.82M570.61%2C8757c-4.109%2C0-8.411-2.15-12.441-6.23-6.192-6.26-7.814-13.05-4.451-18.63a3.416%2C3.416%2C0%2C0%2C1%2C2.947-1.67%2C3.345%2C3.345%2C0%2C0%2C1%2C2.4%2C1l1.27%2C1.29a3.473%2C3.473%2C0%2C0%2C1%2C.533%2C4.17%2C8.248%2C8.248%2C0%2C0%2C0%2C7.263%2C12.1%2C7.381%2C7.381%2C0%2C0%2C0%2C3.737-.98%2C3.351%2C3.351%2C0%2C0%2C1%2C1.716-.47%2C3.4%2C3.4%2C0%2C0%2C1%2C2.409%2C1l1.27%2C1.29a3.476%2C3.476%2C0%2C0%2C1-.663%2C5.4%2C11.247%2C11.247%2C0%2C0%2C1-5.99%2C1.73m-13.945-24.89a1.8%2C1.8%2C0%2C0%2C0-1.559.89c-2.942%2C4.88-1.406%2C10.93%2C4.212%2C16.61%2C3.665%2C3.71%2C7.676%2C5.75%2C11.292%2C5.75a9.669%2C9.669%2C0%2C0%2C0%2C5.145-1.49%2C1.839%2C1.839%2C0%2C0%2C0%2C.867-1.36%2C1.789%2C1.789%2C0%2C0%2C0-.508-1.48l-1.27-1.28a1.8%2C1.8%2C0%2C0%2C0-2.157-.29%2C8.963%2C8.963%2C0%2C0%2C1-4.556%2C1.21%2C9.886%2C9.886%2C0%2C0%2C1-8.666-14.57%2C1.817%2C1.817%2C0%2C0%2C0-.278-2.18l-1.271-1.28a1.751%2C1.751%2C0%2C0%2C0-1.251-.53%22%20transform%3D%22translate%28-552%20-8730%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+.contacts--theme5 .contacts-block .contacts .phones div {
+  display: inline-block;
+  margin-right: 10px; }
+
+.contacts--theme5 .contacts-block .contacts .phones div:after {
+  content: ","; }
+
+.contacts--theme5 .contacts-block .contacts .phones div:last-child {
+  margin-right: 0; }
+
+.contacts--theme5 .contacts-block .contacts .phones div:last-child:after {
+  display: none; }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-block .contacts .phones {
+    padding-left: 40px;
+    margin-bottom: 25px; } }
+
+.contacts--theme5 .contacts-block .contacts .mail {
+  padding: 2px 0 2px 47px;
+  margin-bottom: 0;
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2231px%22%20height%3D%2224px%22%20%20viewBox%3D%220%200%2031%2024%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M578.771%2C8836H554.229a3.289%2C3.289%2C0%2C0%2C1-3.229-3.33v-17.34a3.289%2C3.289%2C0%2C0%2C1%2C3.229-3.33h24.542a3.289%2C3.289%2C0%2C0%2C1%2C3.229%2C3.33v17.34a3.289%2C3.289%2C0%2C0%2C1-3.229%2C3.33m-24.542-22.67a1.973%2C1.973%2C0%2C0%2C0-1.937%2C2v17.34a1.973%2C1.973%2C0%2C0%2C0%2C1.937%2C2h24.542a1.973%2C1.973%2C0%2C0%2C0%2C1.937-2v-17.34a1.973%2C1.973%2C0%2C0%2C0-1.937-2H554.229Zm12.271%2C14.71a4.608%2C4.608%2C0%2C0%2C1-3.449-1.59L552%2C8813.98a0.692%2C0.692%2C0%2C0%2C1%2C.041-0.95%2C0.633%2C0.633%2C0%2C0%2C1%2C.913.05L564%2C8825.55a3.348%2C3.348%2C0%2C0%2C0%2C4.994%2C0l11-12.42a0.633%2C0.633%2C0%2C0%2C1%2C.913-0.04%2C0.679%2C0.679%2C0%2C0%2C1%2C.043.94l-11%2C12.42A4.615%2C4.615%2C0%2C0%2C1%2C566.5%2C8828.04Zm-14.056%2C7.14a0.654%2C0.654%2C0%2C0%2C1-.477-0.22%2C0.679%2C0.679%2C0%2C0%2C1%2C.042-0.94l10.116-9.54a0.632%2C0.632%2C0%2C0%2C1%2C.913.04%2C0.691%2C0.691%2C0%2C0%2C1-.041.95L552.881%2C8835A0.633%2C0.633%2C0%2C0%2C1%2C552.444%2C8835.18Zm28.06-.06a0.614%2C0.614%2C0%2C0%2C1-.435-0.17l-10.063-9.48a0.679%2C0.679%2C0%2C0%2C1-.042-0.94%2C0.625%2C0.625%2C0%2C0%2C1%2C.913-0.05l10.064%2C9.48a0.691%2C0.691%2C0%2C0%2C1%2C.04.95%2C0.645%2C0.645%2C0%2C0%2C1-.477.21%22%20transform%3D%22translate%28-551%20-8812%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+.contacts--theme5 .contacts-block .contacts .mail a {
+  text-decoration: none; }
+
+@media all and (max-width: 400px) {
+  .contacts--theme5 .contacts-block .contacts .mail {
+    padding-left: 40px; } }
+
+.contacts--theme5.inverse .contacts-block .block-title {
+  color: #fff;
+  background: #8B0000; }
+
+.contacts--theme5.inverse .contacts-block .contacts {
+  background: rgba(21, 21, 21, 0.9);
+  }
+
+.contacts--theme5.inverse .contacts-block .contacts:before {
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 17.5px 0 17.5px 17px;
+  border-left-color: #fff; }
+
+.contacts--theme5.inverse .contacts-block .contacts .address, .contacts--theme5.inverse .contacts-block .contacts .phones div, .contacts--theme5.inverse .contacts-block .contacts .mail a {
+  color: #fff;
+  }
+
+.contacts--theme5.inverse .contacts-block .contacts .address {
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2226px%22%20height%3D%2233px%22%20%20viewBox%3D%220%200%2026%2033%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M561%2C8647a12.826%2C12.826%2C0%2C0%2C0-13%2C12.61c0%2C6.63%2C12.029%2C19.64%2C12.541%2C20.19a0.628%2C0.628%2C0%2C0%2C0%2C.919%2C0c0.513-.55%2C12.542-13.56%2C12.542-20.19A12.826%2C12.826%2C0%2C0%2C0%2C561%2C8647m0%2C31.49c-2.226-2.47-11.762-13.4-11.762-18.88a11.767%2C11.767%2C0%2C0%2C1%2C23.524%2C0c0%2C5.48-9.536%2C16.41-11.762%2C18.88m0-26.89a7.543%2C7.543%2C0%2C1%2C0%2C7.773%2C7.54A7.673%2C7.673%2C0%2C0%2C0%2C561%2C8651.6m0%2C13.88a6.343%2C6.343%2C0%2C1%2C1%2C6.535-6.34%2C6.444%2C6.444%2C0%2C0%2C1-6.535%2C6.34%22%20transform%3D%22translate%28-548%20-8647%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+.contacts--theme5.inverse .contacts-block .contacts .phones {
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2227px%22%20height%3D%2227px%22%20%20viewBox%3D%220%200%2027%2027%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M569.372%2C8745.35a0.812%2C0.812%2C0%2C0%2C1-.812-0.82%2C3.967%2C3.967%2C0%2C0%2C0-3.94-3.98%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64%2C5.6%2C5.6%2C0%2C0%2C1%2C5.565%2C5.62%2C0.812%2C0.812%2C0%2C0%2C1-.813.82m4.452%2C0.07a0.818%2C0.818%2C0%2C0%2C1-.812-0.82%2C8.517%2C8.517%2C0%2C0%2C0-8.458-8.55%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64%2C10.147%2C10.147%2C0%2C0%2C1%2C10.082%2C10.19%2C0.817%2C0.817%2C0%2C0%2C1-.812.82m4.363-.11a0.818%2C0.818%2C0%2C0%2C1-.812-0.82%2C12.793%2C12.793%2C0%2C0%2C0-12.711-12.85%2C0.82%2C0.82%2C0%2C0%2C1%2C0-1.64A14.43%2C14.43%2C0%2C0%2C1%2C579%2C8744.49a0.818%2C0.818%2C0%2C0%2C1-.813.82M570.61%2C8757c-4.109%2C0-8.411-2.15-12.441-6.23-6.192-6.26-7.814-13.05-4.451-18.63a3.416%2C3.416%2C0%2C0%2C1%2C2.947-1.67%2C3.345%2C3.345%2C0%2C0%2C1%2C2.4%2C1l1.27%2C1.29a3.473%2C3.473%2C0%2C0%2C1%2C.533%2C4.17%2C8.248%2C8.248%2C0%2C0%2C0%2C7.263%2C12.1%2C7.381%2C7.381%2C0%2C0%2C0%2C3.737-.98%2C3.351%2C3.351%2C0%2C0%2C1%2C1.716-.47%2C3.4%2C3.4%2C0%2C0%2C1%2C2.409%2C1l1.27%2C1.29a3.476%2C3.476%2C0%2C0%2C1-.663%2C5.4%2C11.247%2C11.247%2C0%2C0%2C1-5.99%2C1.73m-13.945-24.89a1.8%2C1.8%2C0%2C0%2C0-1.559.89c-2.942%2C4.88-1.406%2C10.93%2C4.212%2C16.61%2C3.665%2C3.71%2C7.676%2C5.75%2C11.292%2C5.75a9.669%2C9.669%2C0%2C0%2C0%2C5.145-1.49%2C1.839%2C1.839%2C0%2C0%2C0%2C.867-1.36%2C1.789%2C1.789%2C0%2C0%2C0-.508-1.48l-1.27-1.28a1.8%2C1.8%2C0%2C0%2C0-2.157-.29%2C8.963%2C8.963%2C0%2C0%2C1-4.556%2C1.21%2C9.886%2C9.886%2C0%2C0%2C1-8.666-14.57%2C1.817%2C1.817%2C0%2C0%2C0-.278-2.18l-1.271-1.28a1.751%2C1.751%2C0%2C0%2C0-1.251-.53%22%20transform%3D%22translate%28-552%20-8730%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+.contacts--theme5.inverse .contacts-block .contacts .mail {
+  background: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20baseProfile%3D%22full%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aev%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2Fxml-events%22%20xml%3Aspace%3D%22preserve%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2231px%22%20height%3D%2224px%22%20%20viewBox%3D%220%200%2031%2024%22%20preserveAspectRatio%3D%22none%22%20shape-rendering%3D%22geometricPrecision%22%3E%3Cpath%20fill%3D%22%23ec4432%22%20d%3D%22M578.771%2C8836H554.229a3.289%2C3.289%2C0%2C0%2C1-3.229-3.33v-17.34a3.289%2C3.289%2C0%2C0%2C1%2C3.229-3.33h24.542a3.289%2C3.289%2C0%2C0%2C1%2C3.229%2C3.33v17.34a3.289%2C3.289%2C0%2C0%2C1-3.229%2C3.33m-24.542-22.67a1.973%2C1.973%2C0%2C0%2C0-1.937%2C2v17.34a1.973%2C1.973%2C0%2C0%2C0%2C1.937%2C2h24.542a1.973%2C1.973%2C0%2C0%2C0%2C1.937-2v-17.34a1.973%2C1.973%2C0%2C0%2C0-1.937-2H554.229Zm12.271%2C14.71a4.608%2C4.608%2C0%2C0%2C1-3.449-1.59L552%2C8813.98a0.692%2C0.692%2C0%2C0%2C1%2C.041-0.95%2C0.633%2C0.633%2C0%2C0%2C1%2C.913.05L564%2C8825.55a3.348%2C3.348%2C0%2C0%2C0%2C4.994%2C0l11-12.42a0.633%2C0.633%2C0%2C0%2C1%2C.913-0.04%2C0.679%2C0.679%2C0%2C0%2C1%2C.043.94l-11%2C12.42A4.615%2C4.615%2C0%2C0%2C1%2C566.5%2C8828.04Zm-14.056%2C7.14a0.654%2C0.654%2C0%2C0%2C1-.477-0.22%2C0.679%2C0.679%2C0%2C0%2C1%2C.042-0.94l10.116-9.54a0.632%2C0.632%2C0%2C0%2C1%2C.913.04%2C0.691%2C0.691%2C0%2C0%2C1-.041.95L552.881%2C8835A0.633%2C0.633%2C0%2C0%2C1%2C552.444%2C8835.18Zm28.06-.06a0.614%2C0.614%2C0%2C0%2C1-.435-0.17l-10.063-9.48a0.679%2C0.679%2C0%2C0%2C1-.042-0.94%2C0.625%2C0.625%2C0%2C0%2C1%2C.913-0.05l10.064%2C9.48a0.691%2C0.691%2C0%2C0%2C1%2C.04.95%2C0.645%2C0.645%2C0%2C0%2C1-.477.21%22%20transform%3D%22translate%28-551%20-8812%29%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E') left center no-repeat; }
+
+.contacts--theme5.inverse .contacts-block .contacts .phones a{
+  color: #fff;
+}
+.contacts--theme5 .contacts-block .contacts .phones a {
+  color: #666;
+  }
+
+.contacts--theme5 .contacts-block .contacts .mail a {
+  color: #666; }
