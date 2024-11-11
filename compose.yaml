@@ -1,13 +1,12 @@
 services:
   web:
     build: ./site
-    env_file: ./site/.env
     ports:
       - "80:80"
       - "443:443"
     volumes:
       - ./nginx.conf.d:/etc/nginx/conf.d/
-      - ${COMPOSE_CERTS}:/opt/certs
+      - /etc/letsencrypt:/etc/letsencrypt
     networks:
       - backbone
   bot:
