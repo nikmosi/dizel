@@ -1,6 +1,7 @@
 services:
   web:
     build: ./site
+    restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
@@ -11,6 +12,7 @@ services:
       - backbone
   bot:
     build: ./bot
+    restart: unless-stopped
     container_name: bot
     hostname: bot
     env_file: ./bot/.env
