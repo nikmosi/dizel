@@ -9,6 +9,7 @@ jobs:
   deploy:
     runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v4
-    - name: docker compose up
-      run: docker compose up --build --force-recreate -d
+    - name: cd
+      run: cd && cd dizel && git pull
+    - name: ls
+      run: ls
