@@ -10,17 +10,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Deploy to Server
-      uses: cross-the-world/ssh-pipeline@master
-      env:
-        WELCOME: "ssh pipeline"
-      with:
-        host: ${{ secrets.REMOTE_HOST }}
-        user: ${{ secrets.REMOTE_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 22
-        connect_timeout: 10s
-        script: |
-          cd dizel
-          git pull
-          docker compose up --build --force-recreate -d
