@@ -11,5 +11,5 @@ jobs:
     steps:
     - name: cd
       run: cd && cd dizel && git pull
-    - name: ls
-      run: ls
+    - name: docker
+      run: docker compose up --build --force-recreate -d
