@@ -6,6 +6,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
+      - www-certbot:/var/www/certbot
       - ./nginx.conf.d:/etc/nginx/conf.d/
       - /etc/letsencrypt:/etc/letsencrypt
     networks:
@@ -20,6 +21,18 @@ services:
       - "8000:8000"
     networks:
       - backbone
+  certbot:
+    image: certbot/certbot
+    depends_on:
+      - bot
+    container_name: certbot
+    volumes:
+      - www-certbot:/var/www/certbot
+      - /etc/letsencrypt:/etc/letsencrypt
+    command: certonly --webroot --webroot-path=/var/www/certbot --email i@nikmosi.ru --agree-tos --no-eff-email -d renaissanse-diesel.ru
+
+volumes:
+  www-certbot:
 networks:
   backbone:
     driver: bridge
