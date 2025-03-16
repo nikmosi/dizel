@@ -29,7 +29,7 @@ services:
     volumes:
       - www-certbot:/var/www/certbot
       - /etc/letsencrypt:/etc/letsencrypt
-    command: certonly --webroot --webroot-path=/var/www/certbot --email i@nikmosi.ru --agree-tos --no-eff-email -d renaissanse-diesel.ru
+    command: certonly --webroot --webroot-path=/var/www/certbot --email i@nikmosi.ru --agree-tos --no-eff-email -d renaissance-diesel.ru
 
 volumes:
   www-certbot:
